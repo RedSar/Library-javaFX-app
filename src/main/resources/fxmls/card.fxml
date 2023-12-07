@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<HBox fx:id="hbCard" alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="195.0" prefWidth="400.0" spacing="15.0" styleClass="shadow" stylesheets="@../css/styles.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ma.rsmi.bibleo.CardController">
+   <children>
+      <Rectangle fx:id="rCoverImage" arcWidth="5.0" fill="#92c9ff" height="180.0" stroke="TRANSPARENT" strokeType="INSIDE" styleClass="shadow" width="127.0" />
+      <VBox prefHeight="185.0" prefWidth="241.0" spacing="3.0">
+         <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="45.0" prefWidth="247.0">
+               <children>
+                  <Label fx:id="lblTitle" text="Title">
+                     <font>
+                        <Font name="Berlin Sans FB" size="24.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+            <HBox>
+               <children>
+                  <Label id="lblSubtitle" fx:id="lblSUbtitle" style="-fx-font-size: 18;" styleClass="font-abel" text="subtitle">
+                     <font>
+                        <Font name="Berlin Sans FB" size="18.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER_LEFT" prefWidth="200.0" spacing="5.0">
+               <children>
+                  <Label id="lblSubtitle" prefWidth="95.0" text="Authors :">
+                     <font>
+                        <Font name="Roboto Light" size="12.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER_LEFT" prefWidth="200.0" spacing="5.0">
+               <children>
+                  <Label id="lblSubtitle" fx:id="lblAuthors" style="-fx-font-size: 16;" styleClass="font-abel" text="Authors" textOverrun="LEADING_ELLIPSIS">
+                     <font>
+                        <Font name="Berlin Sans FB Bold" size="18.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER_LEFT" prefHeight="18.0" prefWidth="241.0" spacing="5.0">
+               <children>
+                  <Label id="lblSubtitle" prefHeight="18.0" prefWidth="95.0" text="Publisher : ">
+                     <font>
+                        <Font name="Roboto Light" size="12.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER_LEFT" prefWidth="241.0" spacing="5.0">
+               <children>
+                  <Label id="lblSubtitle" fx:id="lblPublisher" style="-fx-font-size: 16;" styleClass="font-abel" text="Publisher" wrapText="true">
+                     <font>
+                        <Font name="Berlin Sans FB Bold" size="18.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER_LEFT" prefWidth="200.0" spacing="5.0">
+               <children>
+                  <Label id="lblSubtitle" prefHeight="18.0" prefWidth="95.0" text="Published Date  : ">
+                     <font>
+                        <Font name="Roboto Light" size="12.0" />
+                     </font>
+                  </Label>
+                  <Label id="lblSubtitle" fx:id="lblPublishedDate" style="-fx-font-size: 18;" styleClass="font-abel" text="12-06-98" textOverrun="LEADING_ELLIPSIS">
+                     <font>
+                        <Font name="Berlin Sans FB Bold" size="18.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+   </children>
+</HBox>

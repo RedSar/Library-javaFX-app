@@ -1,0 +1,85 @@
+@font-face {
+font-family: 'Roboto';
+src: url('../fonts/Roboto.ttf');
+}
+
+@font-face {
+font-family: 'Abel';
+src: url('../fonts/Abel.ttf');
+}
+
+@font-face {
+font-family: 'Lato-bold';
+src: url('../fonts/Lato/Lato-Bold.ttf');
+}
+
+
+.font-abel {
+    -fx-font-family: 'Abel';
+}
+.font-roboto {
+    -fx-font-family: 'Roboto';
+
+}
+.font-lato-bold {
+    -fx-font-family: 'Lato-bold';
+}
+
+.font-size-normal {
+    -fx-font-size: 18px;
+    -fx-fill: #333633; /* Green color */
+}
+
+
+.bg-white{
+    -fx-background-color: #fff;
+}
+
+.bg-transparent {
+    -fx-background-color: rgba(0,0,0,0);
+}
+
+.rounded {
+    -fx-border-radius: 50;
+    -fx-border-color: #d7d7d7;
+}
+
+.rounded-img {
+    -fx-radius: 50;
+}
+
+
+.btn {
+    -fx-border-color: linear-gradient(to bottom right, #2588c9, #1475cb);
+    -fx-background-color: linear-gradient(to bottom right, #2588c9, #1475cb);
+    -fx-radius: 10;
+    -fx-text-fill:#fff;
+    -fx-font-size:18;
+
+}
+
+.btn:hover {
+    -fx-background-color: linear-gradient(to bottom right, #2c9ce8, #1467af);
+
+}
+
+.shadow{
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.5), 5,0,0,0);
+}
+
+.selected {
+    -fx-background-color: #F3F3F3;
+}
+
+.mouse-hover:hover {
+    -fx-background-color: #E4E4E4;
+
+}
+.mouse-hover:hover Label {
+    -fx-font-family:'Lato-bold';
+    -fx-font-size: 18;
+}
+
+
+
+
